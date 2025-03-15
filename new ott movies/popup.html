@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OTT TV Series Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Latest TV Series</h1>
+    <div class="filter-section">
+      <select id="languageFilter" class="language-select">
+        <option value="all">All Languages</option>
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="ta">Tamil</option>
+        <option value="te">Telugu</option>
+        <option value="ml">Malayalam</option>
+        <option value="kn">Kannada</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+      </select>
+    </div>
+    <div class="platform-filter">
+      <button class="platform-btn active" data-platform="all">All</button>
+      <button class="platform-btn" data-platform="netflix">Netflix</button>
+      <button class="platform-btn" data-platform="prime">Prime</button>
+      <button class="platform-btn" data-platform="disney">Disney+</button>
+      <button class="platform-btn" data-platform="hulu">Hulu</button>
+    </div>
+    <div class="series-container" id="seriesContainer">
+      <!-- Series cards will be dynamically inserted here -->
+      <div class="loading">Loading...</div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

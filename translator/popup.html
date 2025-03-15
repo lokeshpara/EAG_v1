@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Quick Translator</h2>
+    <div class="language-selector">
+      <label>Translate to:</label>
+      <select id="targetLanguage">
+        <option value="de">German</option>
+        <option value="kn">Kannada</option>
+        <option value="es">Spanish</option>
+        <option value="te">Telugu</option>
+      </select>
+    </div>
+    <div class="options">
+      <label class="checkbox-label">
+        <input type="checkbox" id="replaceOnPage" checked>
+        Replace text on page
+      </label>
+    </div>
+    <button id="translateBtn">Translate Selected Text</button>
+    <div id="result" class="result-box"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

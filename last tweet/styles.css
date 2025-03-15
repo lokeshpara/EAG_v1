@@ -1,0 +1,94 @@
+body {
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #14171a;
+}
+
+#content {
+  min-height: 100px;
+}
+
+#loading {
+  text-align: center;
+  color: #657786;
+  padding: 20px 0;
+}
+
+#tweet-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+#tweet-text {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: #14171a;
+}
+
+#tweet-meta {
+  font-size: 13px;
+  color: #657786;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-link {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+#tweet-link:hover {
+  text-decoration: underline;
+}
+
+#error {
+  color: #e0245e;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1991da;
+} 

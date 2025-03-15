@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Karpathy's Latest</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icons/icon48.png" alt="Logo" class="logo">
+      <h1>Karpathy's Latest</h1>
+    </div>
+    <div id="content">
+      <div id="loading">Loading...</div>
+      <div id="tweet-container" style="display: none;">
+        <div id="tweet-text"></div>
+        <div id="tweet-meta">
+          <span id="tweet-date"></span>
+          <a id="tweet-link" target="_blank" href="">View on X</a>
+        </div>
+      </div>
+      <div id="error" style="display: none;">
+        Failed to load tweet. Please try again later.
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

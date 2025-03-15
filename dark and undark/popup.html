@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark & Undark</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dark & Undark</h1>
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-label">Dark Mode</span>
+    </div>
+    <div class="settings">
+      <div class="setting-item">
+        <label for="contrast">Contrast:</label>
+        <input type="range" id="contrast" min="80" max="120" value="100">
+      </div>
+      <div class="setting-item">
+        <label for="brightness">Brightness:</label>
+        <input type="range" id="brightness" min="80" max="120" value="100">
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
