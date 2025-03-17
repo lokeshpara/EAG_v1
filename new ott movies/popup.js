@@ -1,5 +1,5 @@
 // API configuration
-const TMDB_API_KEY = '50da3a5a8b8ce8b8fbdb93d0da7264d1'; // User needs to replace this with their API key
+const TMDB_API_KEY = 'YOUR_TMDB_API_KEY'; // User needs to replace this with their API key
 const TMDB_API_BASE_URL = 'https://api.themoviedb.org/3';
 
 // Platform IDs for filtering (These are example network IDs from TMDB)
