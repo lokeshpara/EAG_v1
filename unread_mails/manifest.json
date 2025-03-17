@@ -29,7 +29,7 @@
     "128": "icons/icon128.png"
   },
   "oauth2": {
-    "client_id": "528209800503-bpkrh72crn88v110lnsobllqedqt19h2.apps.googleusercontent.com",
+    "client_id": "YOUR_CLIENT_ID",
     "scopes": [
       "https://www.googleapis.com/auth/gmail.readonly",
       "https://www.googleapis.com/auth/userinfo.email"
